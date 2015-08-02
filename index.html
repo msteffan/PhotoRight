@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PhotoRight</title>
+    <meta></meta>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PhotoRight</h1>
+    </header>
+    <form>
+        <label for="URLpaste">Paste in the URL of the photo:</label>
+        <input class="URL-input" type="text" name="URLpaste">
+        <input id="submitButton" type="submit" value="Check rights">
+    </form>
+    <a id="scroll"></a>
+    <div id="qa-container">
+        <div id="question-container">
+            <!-- questions display here  -->
+        </div>
+        <div id="answers-container">
+            <!-- answers display here -->
+        </div>
+    </div>
+    <div id="canYouUse">
+        <!-- Our answer, based on responses -->
+        <p id="ourAnswer"></p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.1/jquery.scrollTo.min.js"></script>    <script src="js/script.js"></script>
+</body>
+</html>
