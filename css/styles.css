@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Bebas'; /*a name to be used later*/
+    src: url('../fonts/bebas/BebasNeueRegular.otf'); /*URL to font*/
+}
+
+a {
+    color: black;
+}
+
+body {
+    font-family: Bebas;
+    background-color: #FAFAFA;
+}
+
+header {
+}
+
+h1 {
+    text-align: center;
+    font-size: 10em;
+    margin-top: 0px;
+    padding-top: 107px;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+.URL-input {
+    font-family: Bebas;
+    font-size: 30px;
+    height: 2.5em;
+    width: 80%;
+    margin: 1em auto 0 auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.button {
+    height: 60px;
+    font-family: Bebas;
+    display: block;
+    margin: 1.5em auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: lightgrey;
+}
+
+
+.photo-site {
+    margin: 50px auto 0 auto;
+    padding-top: 30px;
+    width: 90%;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+#qa-container {
+    margin-top: 30px;
+    height: 400px;
+    font-size: 1.65em;
+
+
+}
+
+.highlighted {
+    color: white;
+}
+#question-container {
+    height: 100px;
+    text-align: center;
+    font-size: 3em;
+}
+
+#answers-container {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.answer-button {
+    width: 4em;
+    height: 55px;
+    margin: 10px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 1em;
+    padding-top: 10px;
+    border: 1px solid rgb(255, 174, 0);
+    background-color: rgb(255, 174, 0);
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+#canYouUse {
+    padding: 20px 0 50px 0;
+    height: auto;
+    text-align: center;
+
+}
+
+
+#logo-image {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+
+}
+#license-image {
+    margin: 0 auto;
+
+}
+
+#ourAnswer {
+    height: 150px;
+    width: 30em;
+    text-align: center;
+    font-size: 2em;
+    margin: 50px auto 0 auto;
+    line-height: 1.5em;
+}
+
+#column1 {
+    float: left;
+}
+
+#column2 {
+    float: right;
+
+}
+.column {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 200px;
+    width: 49%;
+}
+
+.column-text {
+    width: 90%;
+    margin: 32px auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+#resetButton {
+    font-size: 2em;
+    margin: 0 auto 20px auto;
+}
+
+.contact {
+    font-size: 2em;
+    margin: 0;
+}

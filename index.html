@@ -3,16 +3,22 @@
 <head>
     <title>PhotoRight</title>
     <meta></meta>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="icon"
+      type="image/svg"
+      href="img/camera.svg">
 </head>
 <body>
+    <a id="top"></a>
     <header>
         <h1>PhotoRight</h1>
     </header>
     <form>
         <label for="URLpaste">Paste in the URL of the photo:</label>
         <input class="URL-input" type="text" name="URLpaste">
-        <input id="submitButton" type="submit" value="Check rights">
+        <input id="submitButton" class="button" type="submit" value="Check rights">
     </form>
     <a id="scroll"></a>
     <div id="qa-container">
@@ -26,6 +32,15 @@
     <div id="canYouUse">
         <!-- Our answer, based on responses -->
         <p id="ourAnswer"></p>
+    </div>
+    <input id="resetButton" class="button" type="submit" value="Test another photo">
+    <div id="footer">
+        <div id="column1" class="column">
+            <p class="column-text">Sponsor Info</p>
+        </div>
+        <div id="column2" class="column">
+            <p class="column-text">Legal Info</p>
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.1/jquery.scrollTo.min.js"></script>    <script src="js/script.js"></script>
